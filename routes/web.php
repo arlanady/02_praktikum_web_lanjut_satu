@@ -21,5 +21,5 @@ Route::get('/about', function ($id) {
     echo "1941720042_ARLAN ADY PRATAMA";
 });
 Route::get('/articles/{id}', function ($id) {
-    echo "Halaman Artikel dengan ID " . $id ;
+    echo "PENCAK SILAT NU PAGAR NUSA " . $id ;
 });
