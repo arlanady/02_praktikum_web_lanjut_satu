@@ -23,3 +23,6 @@ Route::get('/about', function ($id) {
 Route::get('/articles/{id}', function ($id) {
     echo "PENCAK SILAT NU PAGAR NUSA " . $id ;
 });
+Route::get('/profile/{data}', function ($data) {
+    return view('profile', compact('data'));
+});
