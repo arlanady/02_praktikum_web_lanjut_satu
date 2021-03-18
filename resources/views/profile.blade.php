@@ -1,1 +1,1 @@
-ini profil
+<p>Anda menginputkan <b>{{$data}}</b></p>
